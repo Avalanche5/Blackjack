@@ -5,4 +5,3 @@ public interface Hand {
     int getTotalValue();
     List<Card> getCards();
 }
-
