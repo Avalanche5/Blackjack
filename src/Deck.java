@@ -28,4 +28,15 @@ public class Deck {
         }
         return null;
     }
+    public Card[] draw(int numOfCards) {
+        int i;
+        Card[] cardsDrawn = new Card[numOfCards];
+        for (i = 0; i < numOfCards; i++){
+            if (!cards.isEmpty()) {    // if cards list (deck) has at least 1 card in it...
+                cardsDrawn[i] = cards.remove(i);
+            }
+        }
+        return cardsDrawn;
+    }
+
 }

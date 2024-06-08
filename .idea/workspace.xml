@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1a0ff2b-b422-4311-a65e-0469db07a9b9" name="Changes" comment="added getTotalValue and getCards functionality">
+    <list default="true" id="e1a0ff2b-b422-4311-a65e-0469db07a9b9" name="Changes" comment="aces now turn into 1's properly">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HandImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -91,13 +92,22 @@
       <option name="project" value="LOCAL" />
       <updated>1717857913105</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aces now turn into 1's properly">
+      <option name="closed" value="true" />
+      <created>1717859558283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717859558283</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="did a bunch of things" />
     <MESSAGE value="added getTotalValue and getCards functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="added getTotalValue and getCards functionality" />
+    <MESSAGE value="aces now turn into 1's properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="aces now turn into 1's properly" />
   </component>
 </project>

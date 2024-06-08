@@ -11,6 +11,14 @@ public class HandImpl implements Hand {
     }
 
     @Override
+    public void addCards(Card[] cards) {
+        int i;
+        for (i = 0; i < cards.length; i++){
+            hand.add(cards[i]);
+        }
+    }
+
+    @Override
     public int getTotalValue() {
         int value = 0;
         for (int i = 0; i < hand.size(); i++) {
