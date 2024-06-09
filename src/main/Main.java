@@ -28,9 +28,22 @@ public class Main {
                 System.out.println("total value: " + player1.getTotalValue());
                 System.out.println("hand: " + player1.getCards());
                 System.out.println();
+
+                /** NOTE: using StringBuilder is more efficient because it is mutable
+                 * Strings, however, are immutable,
+                 * so each '+' results in a new string creation
+                 *
+                 * StringBuilder sb = new StringBuilder();
+                 * sb.append("you chose to hit and drew a ").append(cardDrawn).append("!\n");
+                 * sb.append("total value: ").append(player1.getTotalValue()).append("\n");
+                 * sb.append("hand: ").append(player1.getCards()).append("\n");
+                 * sb.append("\n");
+                 * System.out.println(sb.toString());
+                 * */
             }
 
-            if (choice.equals("s")) {
+//            if (choice.equals("s")) {
+            else if (choice.equals("s")) {
                 System.out.println("you chose to stand!");
                 System.out.println("total value: " + player1.getTotalValue());
                 System.out.println("hand: " + player1.getCards());
@@ -38,7 +51,8 @@ public class Main {
                 loop = false;
             }
 
-            if (!choice.equals("s") && !choice.equals("h")) {
+//            if (!choice.equals("s") && !choice.equals("h")) {
+            else {
                 System.out.println("invalid response...");
             }
         }
