@@ -1,11 +1,11 @@
 package main;
 
 public class Card {
-    final String SUIT;
+    final Suit SUIT;
     final String RANK;
     int value;
 
-    public Card(String _suit, String _rank, int _value){
+    public Card(Suit _suit, String _rank, int _value){
         SUIT = _suit;
         RANK = _rank;
         value = _value;

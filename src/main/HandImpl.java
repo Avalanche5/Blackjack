@@ -8,9 +8,7 @@ public class HandImpl implements Hand {
     List<Card> hand = new ArrayList<>();
 
     @Override
-    public void addCard(Card card) {
-        hand.add(card);
-    }
+    public void addCard(Card card) { hand.add(card); }
 
     @Override
     public void addCards(Card[] cards) {
