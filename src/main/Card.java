@@ -1,3 +1,5 @@
+package main;
+
 public class Card {
     final String SUIT;
     final String RANK;

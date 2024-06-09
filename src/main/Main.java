@@ -1,3 +1,5 @@
+package main;
+
 public class Main {
     public static void main(String[] args) {
         Deck deck = new Deck();
@@ -8,16 +10,20 @@ public class Main {
         System.out.println("HIT (h) or STAND (s)?");
 //        player1.addCard(deck.draw());
 
-//        HandImpl player2 = new HandImpl();
+//        main.HandImpl player2 = new main.HandImpl();
 
     }
     public static void makePlayer(Hand player, Deck deck){
         player.addCards(deck.draw(2));
 
+<<<<<<< HEAD:src/Main.java
 //        player.addCard(deck.draw());
 //        Card ace1 = new Card("hearts", "Ace", 11);
+=======
+//        main.Card ace1 = new main.Card("hearts", "Ace", 11);
+>>>>>>> ea475b4 (restructured folders and added JUnit tests):src/main/Main.java
 //        player.addCard(ace1);
-//        Card ace2 = new Card("diamonds", "Ace", 11);
+//        main.Card ace2 = new main.Card("diamonds", "Ace", 11);
 //        player.addCard(ace2);
     }
 

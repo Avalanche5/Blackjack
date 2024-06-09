@@ -8,7 +8,7 @@ This repository contains a simple command-line Blackjack game implemented in Jav
 
 ### Game Rules
 
-1. **Card Values**:
+1. **main.Card Values**:
    - Number cards (2-10) are worth their face value.
    - Face cards (Jack, Queen, King) are worth 10 points.
    - Aces can be worth 1 or 11 points, whichever is more favorable for the hand.
@@ -36,9 +36,9 @@ It's a tie!
 
 ### Code Structure
 
-- `Card.java`: Represents a single card with a suit, rank, and value.
-- `Deck.java`: Represents a deck of cards, providing methods to shuffle and deal cards.
-- `Hand.java`: Represents a player's hand, including methods to add cards and calculate the hand's total value.
+- `main.Card.java`: Represents a single card with a suit, rank, and value.
+- `main.Deck.java`: Represents a deck of cards, providing methods to shuffle and deal cards.
+- `main.Hand.java`: Represents a player's hand, including methods to add cards and calculate the hand's total value.
 - `Blackjack.java`: Manages the game flow, including dealing cards, handling user input, and determining the winner.
 
 
