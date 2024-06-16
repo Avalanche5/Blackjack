@@ -1,9 +1,7 @@
 package main;
 
-import org.w3c.dom.ls.LSInput;
-import org.w3c.dom.ls.LSOutput;
+import main.types.UserResponse;
 
-import java.io.InputStream;
 import java.util.Scanner;
 
 // todo: give option of playing again

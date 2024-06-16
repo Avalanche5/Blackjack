@@ -1,4 +1,4 @@
-package main;
+package main.types;
 public enum UserResponse {
 		HIT, STAND, INVALID
 }

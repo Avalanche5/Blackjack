@@ -1,5 +1,7 @@
 package main;
 
+import main.types.Suit;
+
 public class Card {
     final Suit SUIT;
     final String RANK;

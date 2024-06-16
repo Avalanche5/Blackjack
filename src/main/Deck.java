@@ -1,5 +1,7 @@
 package main;
 
+import main.types.Suit;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

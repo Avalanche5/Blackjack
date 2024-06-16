@@ -3,7 +3,7 @@ package test;
 import main.Card;
 import main.Hand;
 import main.HandImpl;
-import main.Suit;
+import main.types.Suit;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
