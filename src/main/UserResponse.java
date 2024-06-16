@@ -1,3 +1,4 @@
+package main;
 public enum UserResponse {
-		HIT, STAND
+		HIT, STAND, INVALID
 }
